@@ -1,0 +1,10 @@
+{
+  "welcomeMessage": "Bienvenue à React et react-i18next",
+  "count_one": "Vous avez {{count}} notification",
+  "count_other": "Vous avez {{count}} notifications",
+  "greeting": "Salutations à tous les développeurs <1>React</1>!",
+  "error": {
+    "404": "Page non trouvée",
+    "unknown": "Quelque chose inattendu s'est produit"
+  }
+}

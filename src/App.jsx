@@ -8,7 +8,7 @@ const lngs = {
 const App = () => {
   const { t, i18n } = useTranslation();
 
-  const code = 404;
+  // const code = 404;
   return (
     <>
       {Object.keys(lngs).map((lng) => (
@@ -23,8 +23,7 @@ const App = () => {
         </button>
       ))}
       <h1>{t("welcomeMessage")}</h1>
-      {/* <h1>{t([`error.${code}`, `error.unknown`])}</h1> */}
-      <h2>{t([`error.${code}`, `error.unknown`])}</h2>
+      {/* <h2>{t([`error.${code}`, `error.unknown`])}</h2> */}
 
       {/* Pluralization */}
       {/* <p>{t("count_one", { count: 1 })}</p>

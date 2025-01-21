@@ -11,6 +11,7 @@ const App = () => {
   // const code = 404;
   return (
     <>
+      <h1>{t("hello")}</h1>
       {Object.keys(lngs).map((lng) => (
         <button
           type="submit"
@@ -22,7 +23,7 @@ const App = () => {
           {lngs[lng].nativeName}
         </button>
       ))}
-      <h1>{t("welcomeMessage")}</h1>
+      <h2> {t("welcomeMessage")} </h2>
       {/* <h2>{t([`error.${code}`, `error.unknown`])}</h2> */}
 
       {/* Pluralization */}
@@ -33,6 +34,10 @@ const App = () => {
       <Trans i18nKey="greeting">
         Greeting <strong>React</strong>! developers
       </Trans>
+      <i>
+        {" By -"}
+        {t("developerName")}
+      </i>
     </>
   );
 };

@@ -1,4 +1,6 @@
 {
+  "hello": "Hi there!",
+  "developerName": "Ranjeet Vishwakarma",
   "welcomeMessage": "Welcome to React and react-i18next",
   "count_one": "You have {{count}} notification",
   "count_other": "You have {{count}} notifications",
